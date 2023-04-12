@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@400;700&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <video autoplay loop muted plays-inline class="back__video">
+                <source src="./img/pexels-kelly-6581006-3840x2160-24fps (1).mp4">
+            </video>
+        
+            <h1 class="header__title">Mini</h1>
+    
+            <ul class="header__menu">
+                <li class="header__item">
+                    <a class="header__text" href="./index.html">Головна</a>
+                </li>
+    
+                <li class="header__item">
+                    <a class="header__text" href="#">Топ-10</a>
+                </li>
+    
+                <li class="header__item">
+                    <a class="header__text" href="#">Контакти</a>
+                </li>
+            </ul>
+        </header>
+
+        <section class="info__sestion">
+            <h3 class="info__title">Топ фільмів та серіалів про кримінал</h3>
+
+            <nav class="info__nav">
+                <div class="card" style="width: 15rem;">
+                    <img src="./img/John_Wick_4_poster.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card__title">Джон Уік 4</h5>
+                      <p class="card__text">американський бойовик режисера Чада Стахелські про колишнього найманого вбивцю, якого грає Кіану Рівз. Сиквел фільму «Джон Уік 3».</p>
+                    </div>
+                  </div>
+    
+                  <div class="card" style="width: 15rem;">
+                    <img src="./img/Knives_Out_(film).jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card__title">Ножі наголо</h5>
+                      <p class="card__text">американська неонуарна чорна детективна кінокомедія 2019 року сценариста і режисера Раяна Джонсона. Фільм є сучасним детективним романом про розслідування вбивства, стрічка розповідає про невдале сімейне зібрання, яке порушує смерть голови родини, що стає причиною ведення слідства.</p>
+                    </div>
+                  </div>
+    
+                  <div class="card" style="width: 15rem;">
+                    <img src="./img/Se7en_(poster).jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card__title">Сім</h5>
+                      <p class="card__text">американський класичний трилер у стилі нео-нуару, знятий Девідом Фінчером за сценарієм Ендрю Кевіна Вокера. Стрічка розповідає про розслідування двома детективами-напарниками серії вбивств, які пов'язані із сімома смертними гріхами. У головних ролях — Бред Пітт, Морган Фрімен, Гвінет Пелтроу та Кевін Спейсі.</p>
+                    </div>
+                  </div>
+            </nav>
+
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-block btn-md" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Більше
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Топ криміналів</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Втеча із Шоушенка
+                  <span class="badge bg-primary rounded-pill">1994</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Хрещений батько
+                  <span class="badge bg-primary rounded-pill">1972</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Хрещений батько 2
+                  <span class="badge bg-primary rounded-pill">1974</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Кримінальне чтиво
+                    <span class="badge bg-primary rounded-pill">1994</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Темний лицар
+                    <span class="badge bg-primary rounded-pill">2008</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Славні хлопці
+                    <span class="badge bg-primary rounded-pill">1990</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Місто бога 
+                    <span class="badge bg-primary rounded-pill">2002</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Підозрювальні особи
+                    <span class="badge bg-primary rounded-pill">1995</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Леон
+                    <span class="badge bg-primary rounded-pill">1994</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Зелена миля
+                    <span class="badge bg-primary rounded-pill">1999</span>
+                  </li>
+              </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            <!-- <a class="btn" href="#" role="button">Більше</a> -->
+        </section>
+
+
+        <section class="bye">
+            <div class="row g-0 bg-body-dark bg-opacity-25 position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                  <img src="./img/multiplex-logo.jpg" class="w-100" alt="...">
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">Купити квиток</h5>
+                  <p class="multi__text">найбільша мережа багатозальних кінотеатрів України заснована у 2004 році. Станом на 2018 рік кінотеатральна мережа компанії включає 129 екранів у 23-ох кінотеатрах (плюс 15 екранів на тимчасово окупованих територіях)[К 1] у таких містах як Київ, Кривий Ріг, Миколаїв, Черкаси, Хмельницький, Житомир, Херсон, Чернігів тощо. Всі кінотеатри розташовані в торгових центрах.</p>
+                  <a href="https://multiplex.ua/" class="stretched-link">Купити</a>
+                </div>
+              </div>
+        </section>
+
+        <!-- <section class="info">
+            <h3 class="info__title">Реляційна база даних</h3>
+
+            <p class="info__text">Реляційна база даних — база даних, заснована на реляційній моделі даних. Слово «реляційний» походить від англ. relation (відношення). Для роботи з реляційними БД застосовують реляційні СКБД. Інакше кажучи, реляційна база даних — це база даних, яка сприймається користувачем як набір нормалізованих відношень різного ступеня.
+
+                Реляційна база даних є сукупністю елементів даних, організованих у вигляді набору формально описаних таблиць, з яких дані можуть бути доступними або повторно зібрані багатьма різними способами без необхідності реорганізації таблиць бази даних.
+                
+                Використання реляційних БД було запропоноване Едгаром Коддом в 1970 році.</p>
+
+                <img src="./img/2 (1).jpg" alt="">
+        </section> -->
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>
